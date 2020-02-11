@@ -43,8 +43,7 @@ def main(file_test):
     return tot
 
   # Print error if file does not exists
-  else:
-    error = True
+  else:        
     print("ERROR: File", os.path.abspath(file_test), "does not exist or is not a TXT file") 
 
 # User input filename
